@@ -30,17 +30,13 @@ Email: Nodemailer with Mailtrap
 How to Run It
 Clone the repo and install dependencies:
 
-bash
-Copy
-Edit
+
 git clone <your-repo-url>
 cd ai-ticket-assistant
 npm install
 Set up environment variables in a .env file:
 
-ini
-Copy
-Edit
+
 MONGO_URI=your_mongo_uri
 JWT_SECRET=your_secret
 MAILTRAP_SMTP_HOST=...
@@ -48,15 +44,11 @@ MAILTRAP_SMTP_USER=...
 GEMINI_API_KEY=your_api_key
 Start the app:
 
-bash
-Copy
-Edit
+
 npm run dev
 Start the background event server:
 
-bash
-Copy
-Edit
+
 npm run inngest-dev
 API Overview
 POST /api/auth/signup – Sign up
