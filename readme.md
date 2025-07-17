@@ -31,7 +31,7 @@ How to Run It
 Clone the repo and install dependencies:
 
 
-git clone <your-repo-url>
+git clone https://github.com/zymmy5507/AI-ticket-system.git
 cd ai-ticket-assistant
 npm install
 Set up environment variables in a .env file:
